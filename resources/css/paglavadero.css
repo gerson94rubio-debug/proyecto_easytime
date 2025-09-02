@@ -1,0 +1,180 @@
+/* Fondo general */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f8;
+}
+
+/* Barra azul superior */
+.barra-navegacion {
+  background-color: #459fe9;
+  color: white;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fila-superior {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 30%;
+  gap: 20px;
+}
+
+.logo-izquierda .logo {
+  width: 130px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.titulo-centro {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.titulo-centro h1 {
+  margin: 0;
+  font-size: 80px;
+  color: white;
+  font-family: 'montserrat', sans-serif;
+}
+/* Contenedor conjunto */
+.logo-y-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centrado horizontal */
+  gap: 60px; /* Espacio entre logo y texto */
+  width: 100%;
+}
+
+/* Tamaño del logo */
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+/* Estilo del texto */
+.titulo-logo {
+  margin: 0;
+  font-size: 45.79px;/*Tomando como base los 20px del texto del "menú a" trabajando con proporción aurea*/
+  color: white;
+}
+header nav a {
+  font-size: 25px; 
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+  
+.carrito-derecha {
+  display: flex;
+ justify-content:flex-end;
+ margin-right:10px;
+ 
+}
+
+.icono-carrito {
+  font-size: 34.74px;/*Tomando como base los 20px del texto del "menú a" trabajando con proporción aurea*/
+  color: white;
+  cursor: pointer;
+}
+
+/* Menú */
+.menu {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+}
+
+.menu a {/*Menú principal (Inicio, servicios, etc.)*/
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* Contenido */
+.contenido {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Secciones */
+section {
+  margin-bottom: 30px;
+}
+
+/* Tarjetas */
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tarjeta {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.tarjeta h4 {
+  margin: 10px 0 5px;
+  color: #007bff;
+}
+
+.tarjeta p {
+  margin: 0 0 10px;
+}
+
+.precio {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Footer */
+footer {
+  background-color: #459fe9;
+  text-align: center;
+  padding: 12px;
+  color: #eeeded;
+}
+
+
+/* Estilo del botón de cerrar sesión */
+.cerrar-btn {
+  margin-left: 30px; /* ← se aleja de "Ayuda" */
+  background-color: #6ba5df;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.cerrar-btn:hover {
+  background-color: #66aed8;
+}
